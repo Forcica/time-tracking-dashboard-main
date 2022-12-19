@@ -5,8 +5,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;1,300&display=swap" rel="stylesheet">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <script src="https://kit.fontawesome.com/f49d03dbe2.js" crossorigin="anonymous"></script>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
@@ -16,65 +21,123 @@
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
-
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
-
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
-
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
-
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
-
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
-
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
-
-  
-  <div class="attribution">
+  <div class="firstdivall">
+    <div class="cardleftbig">
+      <div class="boxmediumleft">
+        <img src="./images/image-jeremy.png" alt="jeremypicture">
+        <div class="boxtextleft">
+          <p>Report for</p>
+          <h3>Jeremy <br> Robson</h3>
+        </div>
+      </div>
+      <ul class="buttons">
+        <li class="dailybutton">
+            <a href="">Daily</a>
+        </li>
+        <li class="weeklybutton">
+            <a href="">Weekly</a>
+        </li>
+        <li class="monthlybutton">
+            <a href="">Monthly</a>
+        </li>
+      </ul>
+    </div>
+    <div class="grid">
+      <div class="gridone">
+        <img src="./images/icon-work.svg" alt="iconwork">
+        <div class="gridonelittle">
+          <div class="gridonelittletop">
+            <h4>Work</h4>
+            <button type="button">
+              <i class="fa-solid fa-ellipsis"></i>
+            </button>
+          </div>
+          <div class="gridonelittlebottom">
+            <h3>32hrs</h3>
+            <p>Last Week - 36hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="gridtwo">
+        <img src="./images/icon-play.svg" alt="iconplay">
+        <div class="gridtwolittle">
+          <div class="gridtwolittletop">
+            <h4>Play</h4>
+            <button type="button">
+              <i class="fa-solid fa-ellipsis"></i>
+            </button>
+          </div>
+          <div class="gridtwolittlebottom">
+            <h3>10hrs</h3>
+            <p>Last Week - 8hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="gridthree">
+        <img src="./images/icon-study.svg" alt="icon-study">
+        <div class="gridthreelittle">
+          <div class="gridthreelittletop">
+            <h4>Study</h4>
+            <button type="button">
+              <i class="fa-solid fa-ellipsis"></i>
+            </button>
+          </div>
+          <div class="gridthreelittlebottom">
+            <h3>4hrs</h3>
+            <p>Last Week - 7hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="gridfour">
+        <img src="./images/icon-exercise.svg" alt="icon-exercise">
+        <div class="gridfourlittle">
+          <div class="gridfourlittletop">
+            <h4>Exercise</h4>
+            <button type="button">
+              <i class="fa-solid fa-ellipsis"></i>
+            </button>
+          </div>
+          <div class="gridfourlittlebottom">
+            <h3>4hrs</h3>
+            <p>Last Week - 5hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="gridfive">
+        <img src="./images/icon-social.svg" alt="icon-social">
+        <div class="gridfivelittle">
+          <div class="gridfivelittletop">
+            <h4>Social</h4>
+            <button type="button">
+              <i class="fa-solid fa-ellipsis"></i>
+            </button>
+          </div>
+          <div class="gridfivelittlebottom">
+            <h3>5hrs</h3>
+            <p>Last Week - 10hrs</p>
+          </div>
+        </div>
+      </div>
+      <div class="gridsix">
+        <img src="./images/icon-self-care.svg" alt="icon-self-care">
+        <div class="gridsixlittle">
+          <div class="gridsixlittletop">
+            <h4>Self Care</h4>
+            <button type="button">
+              <i class="fa-solid fa-ellipsis"></i>
+            </button>
+          </div>
+          <div class="gridsixlittlebottom">
+            <h3>2hrs</h3>
+            <p>Last Week - 2hrs</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>  
+  <!-- <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.
-  </div>
+  </div> -->
 </body>
 </html>

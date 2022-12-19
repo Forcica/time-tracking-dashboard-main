@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik';
+    color: white;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #0D1323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstdivall {
+    height: 518px;
+    width: 1109px;
+    display: flex;
+}
+
+.cardleftbig {
+    background-color: #1D204B;
+    height: 100%;
+    width: 254px;
+    border-radius: 15px;
+}
+
+.boxmediumleft {
+    background-color: #5747EB;
+    width: 100%;
+    height: 354px;
+    border-radius: 15px;
+}
+
+.boxmediumleft img {
+    width: 84px;
+    height: 84px;
+    border: 3px solid white;
+    border-radius: 50%;
+    margin-top: 35px;
+    margin-left: 29px;
+}
+
+.boxtextleft {
+    margin-left: 33px;
+    margin-top: 43px;
+}
+
+.boxtextleft p {
+    font-weight: 300;
+    font-size: 15px;
+    color: hsl(236, 100%, 87%);
+}
+
+.boxtextleft h3 {
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.buttons {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+}
+
+.buttons li {
+    margin-left: 33px;
+}
+
+.buttons a {
+    text-decoration: none;
+    font-size: large;
+    transition: 0.2s;
+    color: hsl(235, 45%, 61%);
+}
+
+.buttons a:hover {
+    color: white;
+}
+
+.dailybutton {
+    margin-top: 30px;
+}
+
+.weeklybutton {
+    margin-top: 20px;
+}
+
+.monthlybutton {
+    margin-top: 20px;
+}
+
+.grid {
+    height: 517px;
+    width: 825px;
+    margin-left: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.grid h4 {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.grid button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    list-style-type: none;
+    height: 25px;
+    width: 25px;
+    margin-left: auto;
+}
+
+.grid i {
+    font-size: 20px;
+    color: #CFD2FF;
+}
+
+.grid h3 { 
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.grid p {
+    font-size: 13px;
+    margin-top: 10px;
+    color: #B0B3E8;
+}
+
+.gridone {
+    background-color: #FF8B64;
+    height: 243px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+}
+
+.gridone img {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.gridonelittle {
+    background-color: #1D204B;
+    height: 198px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+} 
+
+.gridonelittletop {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 25px);
+    padding: 30px 30px 0;
+}
+
+.gridonelittlebottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0;
+}
+
+.gridtwo {
+    background-color: #56C2E6;
+    height: 243px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-left: 30px;
+}
+
+.gridtwo img {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.gridtwolittle {
+    background-color: #1D204B;
+    height: 198px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+} 
+
+.gridtwolittletop {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 25px);
+    padding: 30px 30px 0;
+}
+
+.gridtwolittlebottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0;
+}
+
+.gridthree {
+    background-color: #FF5E7D;
+    height: 243px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+}
+
+.gridthree img {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.gridthreelittle {
+    background-color: #1D204B;
+    height: 198px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+} 
+
+.gridthreelittletop {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 25px);
+    padding: 30px 30px 0;
+}
+
+.gridthreelittlebottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0;
+}
+
+.gridfour {
+    background-color: #4BCF83;
+    height: 243px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-top: auto;
+}
+
+.gridfour img {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.gridfourlittle {
+    background-color: #1D204B;
+    height: 198px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+} 
+
+.gridfourlittletop {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 25px);
+    padding: 30px 30px 0;
+}
+
+.gridfourlittlebottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0;
+}
+
+.gridfive {
+    background-color: #7235D1;
+    height: 243px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-left: 30px;
+    margin-top: auto;
+}
+
+.gridfive img {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.gridfivelittle {
+    background-color: #1D204B;
+    height: 198px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+} 
+
+.gridfivelittletop {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 25px);
+    padding: 30px 30px 0;
+}
+
+.gridfivelittlebottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0;
+}
+
+.gridsix {
+    background-color: #F1C75B;
+    height: 243px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-top: auto;
+}
+
+.gridsix img {
+    height: 70px;
+    width: 70px;
+    margin-left: auto;
+    margin-top: -10px;
+    margin-right: 20px;
+}
+
+.gridsixlittle {
+    background-color: #1D204B;
+    height: 198px;
+    width: 255px;
+    border-radius: 15px;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    bottom: 0;
+} 
+
+.gridsixlittletop {
+    display: flex;
+    flex-direction: row;
+    width: calc(100% - 25px);
+    padding: 30px 30px 0;
+}
+
+.gridsixlittlebottom {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 30px 0;
+}
